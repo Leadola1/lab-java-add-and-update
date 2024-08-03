@@ -62,9 +62,13 @@ Create the following routes as efficiently as possible, using validation where a
 6. **Write a short answer in README.md**. In your `README.md`, write a short answer to the following questions:
 
    - Did you use the same type of route to update patient information as to update an employee's department?
+   - no i used put for one an dpatch for the other
    - Why did you choose the selected strategy?
+   - they were on different controllers and i used put becaues it is better to update the entire 
    - What are the advantages and disadvantages of the strategies you chose for creating these routes?
    - What is the cost-benefit between using `PUT` and `PATCH`?
+   - PUT: Replaces the entire resource with the new data. It's useful for complete replacements but can be inefficient for partial updates.
+      PATCH: Updates only the fields specified, making it more efficient for partial updates. However, it can be more complex to handle multiple             concurrent updates or ensure data consistency.
 
 <br>  
 
